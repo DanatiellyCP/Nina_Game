@@ -18,9 +18,11 @@ tanto para a criação de artes, quanto para o desenvolvimento;
 - Inkscape https://inkscape.org
 - Krita https://krita.org
 
-# Plataformas para lançamentos do game:
+# Plataformas para lançamento do game:
 - Em um primeiro momento, o jogo iniciou com a proposta de ser hibrido, e rodar em várias plataformas diferentes, o protótipo inicial foi finalizado para os SOs Windows, e Linux. 
 - Um desafio do projeto atual, e conseguir colocar o jogo para rodar mobile.
+
+![Tela do Game](https://github.com/DanatiellyCP/Nina_Game/imgs/n1.png)
 
 # Sobre a história: 
 - Nina and the 7 monsters from the other side 
