@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Andando 1 Efeito Sonoro Grátis e Sem Copyright (online-audio-converter.com).wav-e5d4c658ff0d809ec3bf05b41fd8944a.sample"
+
+[deps]
+
+source_file="res://Audios/Andando 1 Efeito Sonoro Grátis e Sem Copyright (online-audio-converter.com).wav"
+source_md5="2b5db28fd3952a3386388a612801f97c"
+
+dest_files=[ "res://.import/Andando 1 Efeito Sonoro Grátis e Sem Copyright (online-audio-converter.com).wav-e5d4c658ff0d809ec3bf05b41fd8944a.sample" ]
+dest_md5="2d82bbedd514f4e2bd4199ad088a5d85"
+
+[params]
+
+force/8_bit=true
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

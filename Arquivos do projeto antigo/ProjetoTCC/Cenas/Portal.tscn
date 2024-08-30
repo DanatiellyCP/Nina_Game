@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Scripts/Portal1.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/cenario/Portas/portal jogo2.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/cenario/Portas/portal jogo3.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/cenario/Portas/portal jogo4.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/cenario/Portas/portal jogo.png" type="Texture" id=5]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "poertalAnim",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 45.7783
+
+[node name="Portal1" type="Area2D"]
+
+position = Vector2( 956.65, 214.885 )
+scale = Vector2( 1.33122, 1.37126 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
+
+position = Vector2( -2.85516, -13.9966 )
+scale = Vector2( 0.0833955, 0.0832232 )
+frames = SubResource( 1 )
+animation = "poertalAnim"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( -3.60999, -13.5374 )
+shape = SubResource( 2 )
+
+

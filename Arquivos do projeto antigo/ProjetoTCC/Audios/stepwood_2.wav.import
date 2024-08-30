@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/stepwood_2.wav-4ef76c3903f990c70ee1da24e66bc744.sample"
+
+[deps]
+
+source_file="res://Audios/stepwood_2.wav"
+source_md5="6c45218ff6e0eef6dafd25e2c142249f"
+
+dest_files=[ "res://.import/stepwood_2.wav-4ef76c3903f990c70ee1da24e66bc744.sample" ]
+dest_md5="6b2d79751918202abeaf5ca6d98d4303"
+
+[params]
+
+force/8_bit=true
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=1

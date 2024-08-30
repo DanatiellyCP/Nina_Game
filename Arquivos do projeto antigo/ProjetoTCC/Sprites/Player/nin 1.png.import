@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/nin 1.png-418f3fb6b6c53af9945e5f22412fa814.stex"
+
+[deps]
+
+source_file="res://Sprites/Player/nin 1.png"
+source_md5="969f0db8a022fd7f261bf0c15a6d33b1"
+
+dest_files=[ "res://.import/nin 1.png-418f3fb6b6c53af9945e5f22412fa814.stex" ]
+dest_md5="41c694da093675b5e4c5561328d394d1"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

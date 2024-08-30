@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/r2.png-d954e486dca2c242ebf51ef1f6e58f3f.stex"
+
+[deps]
+
+source_file="res://Sprites/inimigos/monstro nina/r2.png"
+source_md5="e3a6ba28458bfa0c9b23229c130ba808"
+
+dest_files=[ "res://.import/r2.png-d954e486dca2c242ebf51ef1f6e58f3f.stex" ]
+dest_md5="b526194051fd708d3be5c53771c03de6"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

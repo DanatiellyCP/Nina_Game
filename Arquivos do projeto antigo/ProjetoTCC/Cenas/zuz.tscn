@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scripts/zuz.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/personagens/ze1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/personagens/ze2.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 7.84689, 3.7224 )
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "zuzAndando",
+"speed": 5.0
+} ]
+_sections_unfolded = [ "Resource" ]
+
+[node name="zuz" type="StaticBody2D"]
+
+editor/display_folded = true
+position = Vector2( 1315.34, -416.499 )
+scale = Vector2( 0.991327, 1 )
+input_pickable = false
+collision_layer = 4
+collision_mask = 4
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+script = ExtResource( 1 )
+_sections_unfolded = [ "Collision" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
+
+position = Vector2( -731.924, 696.583 )
+scale = Vector2( 3.32127, 3.17455 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="1"]
+
+position = Vector2( -729.422, 690.171 )
+scale = Vector2( 0.0419283, 0.0281012 )
+frames = SubResource( 2 )
+animation = "zuzAndando"
+
+

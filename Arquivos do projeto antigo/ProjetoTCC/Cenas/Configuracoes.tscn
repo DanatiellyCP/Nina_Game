@@ -1,0 +1,77 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Configuracoes.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/cenario/cenas/cena1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/cenario/cenas/tituloConfig.png" type="Texture" id=3]
+[ext_resource path="res://Cenas/VoltarButton.tscn" type="PackedScene" id=4]
+
+[node name="Configuracoes" type="Node"]
+
+script = ExtResource( 1 )
+
+[node name="TextureRect" type="TextureRect" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+stretch_mode = 0
+
+[node name="cena1" type="Sprite" parent="TextureRect" index="0"]
+
+position = Vector2( 521.867, 114.148 )
+texture = ExtResource( 2 )
+
+[node name="TituloCenterContainer" type="CenterContainer" parent="." index="1"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_bottom = 193.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+use_top_left = false
+
+[node name="configuracoesTexto" type="Sprite" parent="TituloCenterContainer" index="0"]
+
+position = Vector2( 632.612, 91.3161 )
+scale = Vector2( 0.469038, 0.469038 )
+texture = ExtResource( 3 )
+
+[node name="RodapeVoltar" type="CenterContainer" parent="." index="2"]
+
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -440.0
+margin_top = -253.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+use_top_left = false
+
+[node name="VoltarButton" parent="RodapeVoltar" index="0" instance=ExtResource( 4 )]
+
+margin_left = 195.0
+margin_top = 116.0
+margin_right = 244.0
+margin_bottom = 136.0
+
+[connection signal="pressed" from="RodapeVoltar/VoltarButton" to="." method="_on_VoltarButton_pressed"]
+
+

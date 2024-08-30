@@ -1,0 +1,18 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+path="res://.import/volcano_pack_alt_34.png-d18037cb3bf8e786145d918b8f85524e.res"
+
+[deps]
+
+source_file="res://Sprites/cenario/volcano_pack_alt_34.png"
+source_md5="82eacadec36cb7116eb1958259d4178c"
+
+dest_files=[ "res://.import/volcano_pack_alt_34.png-d18037cb3bf8e786145d918b8f85524e.res" ]
+dest_md5="b9850b56f6354b9d4f8a8d1e0c07960c"
+
+[params]
+
+create_from=0
+threshold=0.5

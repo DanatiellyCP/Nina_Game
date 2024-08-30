@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/full steps stereo.ogg-512293f162733d696b14ede019e8ecd0.oggstr"
+
+[deps]
+
+source_file="res://Audios/full steps stereo.ogg"
+source_md5="6589e435d380a5f93c7ea4555513562e"
+
+dest_files=[ "res://.import/full steps stereo.ogg-512293f162733d696b14ede019e8ecd0.oggstr" ]
+dest_md5="3b802256745d380a10bd545fc2e76a30"
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/ajuda Teclado.png-cd108193bf88c16631e48c2fb2029a0e.stex"
+
+[deps]
+
+source_file="res://Sprites/cenario/cenas/ajuda Teclado.png"
+source_md5="370cccbd135f5abf35ee9eb21561903a"
+
+dest_files=[ "res://.import/ajuda Teclado.png-cd108193bf88c16631e48c2fb2029a0e.stex" ]
+dest_md5="3adcb174d0ae0f973abf0378948ba3a6"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

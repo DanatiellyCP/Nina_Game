@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/ajuda Joy.png-d624a5e8adc0b543d082572336b69b09.stex"
+
+[deps]
+
+source_file="res://Sprites/cenario/cenas/ajuda Joy.png"
+source_md5="3be798e4928307219f4fe533a64f59ce"
+
+dest_files=[ "res://.import/ajuda Joy.png-d624a5e8adc0b543d082572336b69b09.stex" ]
+dest_md5="e1afa39147c85525585b1cc1f8099c4e"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

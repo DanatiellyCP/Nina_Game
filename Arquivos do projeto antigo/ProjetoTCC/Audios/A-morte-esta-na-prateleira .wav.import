@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/A-morte-esta-na-prateleira .wav-869b5af1afd798a926fff9da97fa8920.sample"
+
+[deps]
+
+source_file="res://Audios/A-morte-esta-na-prateleira .wav"
+source_md5="7bc0d4a40aaf9f927daa75827092a21c"
+
+dest_files=[ "res://.import/A-morte-esta-na-prateleira .wav-869b5af1afd798a926fff9da97fa8920.sample" ]
+dest_md5="66ab031097436199411233190e9a0094"
+
+[params]
+
+force/8_bit=true
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

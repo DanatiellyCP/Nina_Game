@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/caixa1.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/objetos/ponte de pedra.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 30.1341, 18.0075 )
+
+[node name="caixa1" type="StaticBody2D"]
+
+position = Vector2( 357.289, 399.959 )
+scale = Vector2( 2.0512, 0.541742 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+position = Vector2( -3.28254, -16.4199 )
+scale = Vector2( 0.152653, 0.500868 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( -3.45152, -15.6804 )
+scale = Vector2( 1.33503, 2.14345 )
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+

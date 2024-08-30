@@ -1,0 +1,79 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/Historia.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/cenario/cenas/cena1.png" type="Texture" id=2]
+[ext_resource path="res://Cenas/VoltarButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Sprites/cenario/cenas/tituloHistoria.png" type="Texture" id=4]
+[ext_resource path="res://Audios/wet-dreams (online-audio-converter.com).ogg" type="AudioStream" id=5]
+[ext_resource path="res://Cenas/CaixaDialogo.tscn" type="PackedScene" id=6]
+
+[node name="Historia" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="TextureRect" type="TextureRect" parent="." index="0"]
+
+editor/display_folded = true
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+stretch_mode = 0
+
+[node name="cena1" type="Sprite" parent="TextureRect" index="0"]
+
+position = Vector2( 1265.09, 307.674 )
+scale = Vector2( 1.7839, 1.77633 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="RodapeVoltar" type="CenterContainer" parent="." index="1"]
+
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -545.0
+margin_top = -257.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+use_top_left = false
+
+[node name="VoltarButton" parent="RodapeVoltar" index="0" instance=ExtResource( 3 )]
+
+margin_left = 248.0
+margin_top = 118.0
+margin_right = 297.0
+margin_bottom = 138.0
+
+[node name="ninaTitulo" type="Sprite" parent="." index="2"]
+
+position = Vector2( 365.273, 97.1258 )
+scale = Vector2( 0.499705, 0.547207 )
+texture = ExtResource( 4 )
+
+[node name="TrilhaHistoria" type="AudioStreamPlayer" parent="." index="3"]
+
+stream = ExtResource( 5 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Polygon2D" parent="." index="4" instance=ExtResource( 6 )]
+
+[connection signal="pressed" from="RodapeVoltar/VoltarButton" to="." method="_on_VoltarButton_pressed"]
+
+

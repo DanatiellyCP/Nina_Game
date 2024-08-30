@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/TrilhaOtherside.wav-73d112801bab4c65b1c04c15c226991a.sample"
+
+[deps]
+
+source_file="res://Audios/TrilhaOtherside.wav"
+source_md5="78fe65c0a92cbed32b0e88ad6eacfe6e"
+
+dest_files=[ "res://.import/TrilhaOtherside.wav-73d112801bab4c65b1c04c15c226991a.sample" ]
+dest_md5="e23ef0c0f165e43948a485af176db54d"
+
+[params]
+
+force/8_bit=true
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=true
+edit/loop=false
+compress/mode=1

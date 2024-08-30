@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/n1.png-799e0e4e3d9c32f2d3443bb9da30273e.stex"
+
+[deps]
+
+source_file="res://Sprites/Player/nina andando/n1.png"
+source_md5="03ff679cd50e6a54444a5a74f8128881"
+
+dest_files=[ "res://.import/n1.png-799e0e4e3d9c32f2d3443bb9da30273e.stex" ]
+dest_md5="8145695e40b1d30ba9e81c8abed2ad72"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

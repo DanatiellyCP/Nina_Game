@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/stepdirt_5.wav-5527dafe3c267bd70efafb680ebab576.sample"
+
+[deps]
+
+source_file="res://Audios/stepdirt_5.wav"
+source_md5="1bfe953e27f587199907e3a595753ff6"
+
+dest_files=[ "res://.import/stepdirt_5.wav-5527dafe3c267bd70efafb680ebab576.sample" ]
+dest_md5="3e2781d28d634817f94db5178d4b1010"
+
+[params]
+
+force/8_bit=true
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

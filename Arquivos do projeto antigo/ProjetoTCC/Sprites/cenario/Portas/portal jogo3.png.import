@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/portal jogo3.png-da70c4c8e9337562e99f1adfdde20586.stex"
+
+[deps]
+
+source_file="res://Sprites/cenario/Portas/portal jogo3.png"
+source_md5="36e5b6887fde27f480d4b09cbc2800ce"
+
+dest_files=[ "res://.import/portal jogo3.png-da70c4c8e9337562e99f1adfdde20586.stex" ]
+dest_md5="f07be2b3b9ab7d67c601275b6b7073a2"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
